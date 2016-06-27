@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>鼎文公職題庫網</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="../images/logo.png" alt="題庫網logo" width="115"></a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <a href="news.html" target="_blank">
+                        <i class="fa fa-rss fa-fw"></i>  最新消息</i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="qa.html" target="_blank">
+                        <i class="fa fa-question fa-fw"></i>  常見問題</i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="apply.html" target="_blank">
+                        <i class="fa fa-bell fa-fw"></i>  帳號申請</a>
+                </li>
+                
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group">
+
+
+                            <form id="LoginPanel" class="form-horizontal" action="vip.html">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="帳號" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" placeholder="Password" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-default">登入</button>
+                                        <a href="forget.html">忘記密碼</a>
+                                    </div>
+                                </div>
+
+                                <!--登入狀態-->
+                                <!--<div>
+                                    C000001 您好 <button class="btn">登出</button>
+                                    <br/>
+                                    <a href="vip.html"><i class="glyphicon glyphicon-home"></i>會員中心</a>
+                                </div>-->
+                            </form>
+
+
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> 題庫分類</a>
+                        </li>
+<li>
+                            <a href="index.html"><i class="fa fa-bar-chart-o fa-fw"></i><strong> 公職考試</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">鐵路特考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">高普考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">初等／地方五等</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">地方特考(三、四等)</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">一般警察</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">司法特考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">移民特考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">關務特考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">民航特考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">調查局</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">海巡特考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">稅務特考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">身障特考</a>
+                                </li>   
+                                <li>
+                                    <a href="list.html">外交特考</a>
+                                </li>                              
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-wrench fa-fw"></i><strong> 機關就業</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">捷運公司</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">中華郵政</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">台電新進雇員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">中鋼公司</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">經濟部工業局</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">中華電信</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">中華國際黃頁</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">臺灣省農會</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">水利會</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">國營事業</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">公幼教保人員</a>
+                                </li>   
+                                <li>
+                                    <a href="list.html">臺灣菸酒</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">自來水公司評價人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">中油公司</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">清潔隊員</a>
+                                </li>   
+                                </li>
+                                <li>
+                                    <a href="list.html">漁會招考</a>
+                                </li>                                                         
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-cubes fa-fw"></i><strong> 證券類</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">證券商業務員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">證券商高級業務員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">期貨商業務員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">投信投顧業務員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">企業內部控制</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">股務人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">票券商業務員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">證券分析師</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">金融市場常識與職業道德</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">債券人員</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-credit-card fa-fw"></i><strong> 銀行類</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">理財規劃人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">信託業務人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">銀行內部控制與內部稽核(一般金融類)</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">初階授信人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">初階外匯人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">銀行內部控制與內部稽核(消費金融類)</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">公民銀行招考(一般金融組)</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">公民銀行招考(共同科目)</a>
+                                </li> 
+                                <li>
+                                    <a href="list.html">公民銀行招考(徵授信組)</a>
+                                </li> 
+                                <li>
+                                    <a href="list.html">公民銀行招考(理財組)</a>
+                                </li> 
+                                <li>
+                                    <a href="list.html">公民銀行招考(法務組)</a>
+                                </li> 
+                                <li>
+                                    <a href="list.html">公民銀行招考(櫃台組)</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">公民銀行招考(儲備精英)</a>
+                                </li>  
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-book fa-fw"></i><strong> 證照類</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">導遊領隊人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">不動產經紀人</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">地政士</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-tasks fa-fw"></i><strong> 保險類</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">投資型保險業務員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">人身保險代理人</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">財產保險經紀人</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-database fa-fw"></i><strong> 財會類</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">記帳士</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">會計事務技術士乙級</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">中小企財務人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">會計事務技術士丙級</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-building-o fa-fw"></i><strong> 國貿類</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">貿易業務技術士乙級</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">國貿大會考</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">貿易業務技術士丙級</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">專責報關人員</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">兩岸暨東協經貿商務人才</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-university fa-fw"></i><strong> 升學考試</strong><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="list.html">警專正期班</a>
+                                </li>
+                                <li>
+                                    <a href="list.html">四技二專</a>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        
+
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="page-header"><i class="glyphicon glyphicon-home"></i>會員中心</h3>
+
+                        
+                    <div>
+                      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#password-change">修改密碼</button>
+                      <div id="password-change" class="collapse">
+
+                        <div class="well">
+                            <form id="LoginPanel">
+                                <div class="form-group">
+                                    <div>
+                                        新密碼：<input type="password" class="form-control" placeholder="新密碼" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        確認密碼：<input type="password" class="form-control" placeholder="確認密碼" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <button type="submit" class="btn btn-danger">確認修改</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                        開始日：2015/11/5 下午 04:50:38
+                    </div>
+                    <div>
+                        截止日：2016/12/5 下午 04:50:3
+                    </div>
+                    <div>
+                        登入次數：99次
+                    </div>
+                    <div>
+                        剩餘次數：1次
+                    </div>
+                    <div>
+                        Email：me4000@ting-wen.com
+                    </div>
+                    <div>
+                        姓名：ABC
+                    </div>
+                    <hr />
+                    <div>
+                        <h3>您的科目使用權限</h3>
+                        <!--已選取考試-->
+                        <h4><a href="course.html">高普考</a></h4>
+
+                        <!--未選取考試-->
+                        <div>
+                            <ol>
+                                <li>在第一次使用題庫網之前，請先選擇您要使用的考試類別，只有此類別才有進階版的權限。</li>
+                                <li>您可以選取一個考試類別，每個類別底下的科目數量皆不相同，請您先試做過後在決定您要選取的科目。</li>
+                                <li>當您確認選取且送出之後就不得再修改，請確認您要使用之後在選取類別。 </li>
+                                <li>瀏覽器請使用IE10以上、Google Chrome、Firefox</li>
+                            </ol>
+                            <div>
+                                <h4><i class="fa fa-check fa-fw"></i>第一步(選擇考試，只能選擇一個考試)：</h4><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#listdemo">選擇考試</button>
+
+                                
+                                  <div id="listdemo" class="collapse">
+
+                    <P>
+                    <!-- 選擇考試-->
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-star fa-fw"></i>選擇考試，只能選擇一個考試
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-pills">
+                                <li class="active"><a href="#list1" data-toggle="tab"><i class="fa fa-bar-chart-o fa-fw"></i>公職考試</a>
+                                </li>
+                                <li><a href="#list2" data-toggle="tab"><i class="fa fa-wrench fa-fw"></i>機關就業</a>
+                                </li>
+                                <li><a href="#list3" data-toggle="tab"><i class="fa fa-cubes fa-fw"></i>證券類</a>
+                                </li>
+                                <li><a href="#list4" data-toggle="tab"><i class="fa fa-credit-card fa-fw"></i>銀行類</a>
+                                </li>
+                                <li><a href="#list5" data-toggle="tab"><i class="fa fa-book fa-fw"></i>證照類</a>
+                                </li>
+                                <li><a href="#list6" data-toggle="tab"><i class="fa fa-tasks fa-fw"></i>保險類</a>
+                                </li>
+                                <li><a href="#list7" data-toggle="tab"><i class="fa fa-database fa-fw"></i>財會類</a>
+                                </li>
+                                <li><a href="#list8" data-toggle="tab"><i class="fa fa-building-o fa-fw"></i>國貿類</a>
+                                </li>
+                                <li><a href="#list9" data-toggle="tab"><i class="fa fa-university fa-fw"></i>升學考試</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="list1"><form role="form">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>捷運公司</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>中華郵政</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>台電新進雇員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>中鋼公司</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>經濟部工業局</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>中華電信</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>中華國際黃頁</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>臺灣省農會</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>水利會</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>國營事業</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>臺灣菸酒</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>自來水公司評價人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>中油公司</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>清潔隊員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>漁會招考</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="list2">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>鐵路特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>高普考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>初等／地方五等</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>地方特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>一般警察</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>司法特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>移民特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>關務特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>民航特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>調查局</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>海巡特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>稅務特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>身障特考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>外交特考</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="list3">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>證券商業務員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>證券商高級業務員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>期貨商業務員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>投信投顧業務員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>企業內部控制</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>股務人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>票券商業務員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>證券分析師</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>金融市場常識與職業道德</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>債券人員</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="list4">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>理財規劃人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>信託業務人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>控制與內部稽核(一般金融類)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>初階授信人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>初階外匯人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>銀行內部控制與內部稽核(消費金融類)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(一般金融組)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(共同科目)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(徵授信組)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(理財組)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(法務組)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(理財組)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(櫃台組)</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>公民銀行招考(儲備精英)</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="list5">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>導遊領隊人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>不動產經紀人</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>地政士</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                    <div class="tab-pane fade" id="list6">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>投資型保險業務員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>人身保險代理人</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>財產保險經紀人</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                 <div class="tab-pane fade" id="list7">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>記帳士</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>會計事務技術士乙級</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>中小企財務人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>會計事務技術士丙級</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="list8">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>貿易業務技術士乙級</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>國貿大會考</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>貿易業務技術士丙級</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>專責報關人員</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>兩岸暨東協經貿商務人才</label>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="list9">
+                                    <form role="form">
+                                    <div class="radio">
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>警專正期班</label>
+                                      <label><input type="radio" name="optradio"><i class="fa fa-folder-open fa-fw"></i>四技二專</label>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.選擇考試panel -->
+                                  </div>
+
+                            </div>
+                            <div>
+                                <h4><i class="fa fa-check fa-fw"></i>第二步(新增所選取的考試)：</h4> <span class="label label-danger">鐵路特考</span>&nbsp; &nbsp; <button type="button" class="btn btn-primary">確認新增</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <h3>我收錄的題庫</h3>
+                        <ul>
+                            <li><a href="">鐵路特考 » 佐級(共同科目) » 模擬題庫 » 國文 </a></li>
+                            <li><a href="">鐵路特考 » 佐級(共同科目) » 模擬題庫 » 公民 </a></li>
+                            <li><a href="">鐵路特考 » 佐級(共同科目) » 模擬題庫 » 公民 </a></li>
+                            <li><a href="">鐵路特考 » 佐級(共同科目) » 模擬題庫 » 公民 </a></li>
+                            <li><a href="">鐵路特考 » 佐級(共同科目) » 模擬題庫 » 公民 </a></li>
+                            <li><a href="">鐵路特考 » 佐級(共同科目) » 模擬題庫 » 公民 </a></li>
+                        </ul>
+                    </div>
+                    <hr />
+                    <div class="table-responsive">
+                        <h3>我的成績單(最多保留30筆紀錄)</h3>
+                        <table class="table table-hover ">
+                            <tr class="info">
+                                <th>考試科目</th>
+                                <th>作答時間</th>
+                                <th>得分</th>
+                                <th>時間</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>高普考 &#187; 共同科目 &#187; 模擬題庫 &#187; 國文 </td>
+                                <td>0分5秒</td>
+                                <td>0</td>
+                                <td>2016/6/20 下午 04:38:39</td>
+                                <td>
+                                    <input type="button" value="刪除" class="btn btn-danger deleteRecord" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>不動產經紀人 &#187; 歷屆題庫 &#187; 100年 &#187; 不動產估價概要 </td>
+                                <td>0分28秒</td>
+                                <td>10</td>
+                                <td>2015/11/27 上午 11:13:36</td>
+                                <td>
+                                    <input type="button" value="刪除" class="btn btn-danger deleteRecord"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <footer class="container-fluid bg-4 text-center">
+    <p>Copyrights 2016© 鼎文公職版權所有<a href="http://http://info.ting-wen.com/" target="_blank">www.ting-wen.com</a></p>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
